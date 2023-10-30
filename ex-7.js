@@ -5,10 +5,10 @@ let oddCount = 0;
 let zeroCount = 0;
 
 for (let i = 0; i < myArray.length; i++) {
-    if (Element === 0) {
+    if (myArray[i] === 0) {
         zeroCount++;
-    } else if (Element % 2 === 0) {
-        EventCounts++;
+    } else if (myArray[i] % 2 === 0) {
+        evenCount++;
     } else {
         oddCount++;
     }
